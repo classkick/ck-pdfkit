@@ -2283,7 +2283,7 @@ module.exports = {
       image = PDFImage.open(src, 'I' + (++this._imageCount));
       image.embed(this);
       if (!Buffer.isBuffer(src)) {
-        this._imageRegistry[src] = image;
+        this._imageRegistry[src.key] = image;
       }
     }
     if ((_base = this.page.xobjects)[_name = image.label] == null) {
