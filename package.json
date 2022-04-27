@@ -1,0 +1,7 @@
+{
+    "name": "ck-pdfkit",
+    "version": "0.8.0",
+    "description": "Classkick's version of pdfkit",
+    "license": "MIT",
+    "repository": "https://github.com/classkick/ck-pdfkit/"
+}
